@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.stoptWatch{
+    background-color: rgb(250, 235, 215);
+    padding: 50px;
+
+}
+.timer{
+    background-color: rgba(20, 13, 13, 0.793);
+    padding: 10px 11px;
+    border-radius: 10px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+button{
+   padding:9px 18px;
+   border: none;
+   border-radius: 5px;
+   font-size: 15px;
+   color: white;
+   cursor: pointer;
+   
+}
+.stop{
+    background-color: red;
+}
+.start{
+    background-color: green;
+}
+.reset{
+    background-color: blue;
+}
